@@ -1,0 +1,49 @@
+footer{
+  ul{
+    display:block;
+    li{
+      display:inline;
+    }
+    &.footer-nav{
+    	font-size: 0.875rem;
+        font-weight: 500;
+      /*@include media-breakpoint-down(md) { 
+        font-size: 0.875rem;
+      }*/
+      li{
+        margin-bottom:0;
+      }
+    }
+  }
+  .change-font{
+    a{
+      width: 30px;
+      height: 25px;
+      line-height: 25px;
+      display: inline-block;
+   	 text-align: center;
+      &.size{
+        &.font-size-1{
+        font-size:0.8rem;
+        }
+         &.font-size-2{
+         font-size:0.9rem;
+        }
+         &.font-size-3{
+         font-size:1rem;
+        }
+        &.active{
+          background:$black;
+          color:$white;
+          text-decoration:none;
+        }
+        &:visited{
+        text-decoration:none;
+        }
+        &:hover{
+        text-decoration:none;
+        }
+      }
+    }
+  }
+}/*footer*/

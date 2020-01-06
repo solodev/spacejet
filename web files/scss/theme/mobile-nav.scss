@@ -1,0 +1,35 @@
+/* mobile menu*/
+.nav-sidenav {
+  width: 350px;
+  right: -360px;
+  -webkit-transition: right .3s ease-in-out;
+  transition: right .3s ease-in-out;
+  z-index: 1000;
+  li {
+    &.nav-item {
+      font-family: $primary-font;
+      font-size: 0.9rem;
+
+      .active {
+        background-color: theme-color("brand-1");
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  &.active {
+    right: 0;
+  }
+  .sidenav-close {
+    &.open {
+      right: 2rem;
+    }
+  }
+  .input-group {
+    .form-control {
+      border-top-left-radius: 5.5rem;
+      border-bottom-left-radius: 5.5rem;
+    }
+  }
+}
