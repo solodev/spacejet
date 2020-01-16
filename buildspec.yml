@@ -22,7 +22,6 @@
         - cd web\ files && sed -i 's@#5c6771@'"$SITETERTIARY"'@' scss/_theme-variables.scss
         - cd web\ files && sed -i 's@#00a1db@'"$SITEQUATERNARY"'@' scss/_theme-variables.scss
         - zip --symlinks -r spacejet.zip web\ files www config.json
-        - aws s3 cp spacejet.zip s3://solodev-aws-ha
         - mkdir marketplace
         - cd marketplace
         - git init
