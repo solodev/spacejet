@@ -16,8 +16,6 @@
         - aws configure set aws_session_token `./jq -r '.Token' aws_credentials.json`
         - ls -al
         - yum install -y zip git
-        - cd web\ files && npm install --loglevel info --no-progress
-        - cd web\ files && rm -rf node_modules
         - cd web\ files && sed -i 's@#d30b5c@'"$SITEPRIMARY"'@' scss/_theme-variables.scss
         - cd web\ files && sed -i 's@#f1f6f7@'"$SITESECONDARY"'@' scss/_theme-variables.scss
         - cd web\ files && sed -i 's@#5c6771@'"$SITETERTIARY"'@' scss/_theme-variables.scss
