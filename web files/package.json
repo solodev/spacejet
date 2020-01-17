@@ -5,6 +5,7 @@
 	"main": "index.js",
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.8.1",
+		"@nodelib/fs.stat": "^2.0.3",
 		"autoprefixer": "^9.5.1",
 		"jquery": "^3.4.0",
 		"popper.js": "^1.15.0",
