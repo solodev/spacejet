@@ -21,6 +21,9 @@
         - cd web\ files && sed -i 's@#f1f6f7@'"$SITESECONDARY"'@' scss/_theme-variables.scss
         - cd web\ files && sed -i 's@#5c6771@'"$SITETERTIARY"'@' scss/_theme-variables.scss
         - cd web\ files && sed -i 's@#00a1db@'"$SITEQUATERNARY"'@' scss/_theme-variables.scss
+        - cd web\ files && sed -i 's@spacejet-logo.png@'"$LOGONAME"'@' templates/navigation/top-nav.tpl
+        - cd web\ files && sed -i 's@spacejet-logo.png@'"$LOGONAME"'@' templates/navigation/mobile-menu.tpl
+        - cd web\ files && sed -i 's@spacejet-logo.png@'"$LOGONAME"'@' templates/footer/footer.tpl
         - zip --symlinks -r spacejet.zip web\ files www config.json
         - mkdir marketplace
         - cd marketplace
