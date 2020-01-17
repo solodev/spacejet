@@ -5,19 +5,21 @@
   -webkit-transition: right .3s ease-in-out;
   transition: right .3s ease-in-out;
   z-index: 1000;
-  li {
-    &.nav-item {
-      font-family: $primary-font;
-      font-size: 0.9rem;
-
-      .active {
-        background-color: theme-color("brand-1");
-        a {
-          text-decoration: none;
-        }
+  @include media-breakpoint-down(xs) { width: 100%;right: -100%; }
+ul{
+  &.nav{
+    li {
+      &.nav-item {
+         a {
+           font-family: $primary-font;
+           font-size: 0.9rem;
+           text-decoration: none;
+           color: $body-color;
+          }/*a*/
       }
-    }
+    } /*li*/
   }
+}/*ul*/
   &.active {
     right: 0;
   }
@@ -26,10 +28,4 @@
       right: 2rem;
     }
   }
-  .input-group {
-    .form-control {
-      border-top-left-radius: 5.5rem;
-      border-bottom-left-radius: 5.5rem;
-    }
-  }
-}
+}/*nav-sidenav*/

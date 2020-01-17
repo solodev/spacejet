@@ -1,4 +1,15 @@
 /** ===========================================
+   Keep footer always at the bottom
+  ============================================ */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 13rem;    /* Footer height */
+}
+
+/** ===========================================
     Lists
   ============================================ */
 ul,
@@ -72,5 +83,9 @@ ol {
 /** ===========================================
    Font Weight
   ============================================ */
-  .font-weight-500{$font-weight-500;}
-  .font-weight-600{$font-weight-600;}
+  .font-weight-500{
+  font-weight:$font-weight-500;
+  }
+  .font-weight-600{
+  font-weight:$font-weight-600;
+  }

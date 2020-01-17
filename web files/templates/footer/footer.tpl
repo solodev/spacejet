@@ -2,14 +2,14 @@
 	<div class="container">
 		<div class="row d-flex align-items-center justify-content-between">
           <div class="col-md-2">
-              <a href="/" class="d-block p-3 p-sm-0"><img alt="" aria-role="logo" class="img-fluid" src="/_/images/space-jet-logo.png" /> </a>
+              <a href="/" class="d-block p-3 p-sm-0"><img alt="" aria-role="logo" class="img-fluid" src="/_/images/spacejet-logo.png" /> </a>
           </div>
           <div class="col-md-8 my-3 my-md-0">
-              <ul  class="list-unstyled list-inline mb-0 d-flex flex-wrap justify-content-center footer-nav">
-                  <li><a href="tel:4078981961" class="text-black pr-3">(407) 898-1961</a></li>
-                  <li><a href="mailto:info@spacejet.com" class="text-black px-3">info@spacejet.com</a></li>
-                  <li><a href="/about.stml" class="text-black px-3">About</a></li>
-                  <li><a href="/contact-us.stml" class="text-black pl-3">Contact</a></li>
+              <ul  class="list-unstyled list-inline mb-0 d-flex flex-column flex-md-row flex-md-wrap justify-content-center footer-nav text-center text-md-left">
+                  <li><a href="tel:4078981961" class="text-black pr-md-3">(407) 898-1961</a></li>
+                  <li><a href="mailto:info@spacejet.com" class="text-black px-md-3">info@spacejet.com</a></li>
+                  <li><a href="/about.stml" class="text-black px-md-3">About</a></li>
+                  <li><a href="/contact.stml" class="text-black pl-md-3">Contact</a></li>
               </ul>
           </div>
           <div class="col-md-2 d-none d-md-block pl-xl-6">
@@ -21,14 +21,16 @@
           </div>
 	</div>
 	<div class="row d-flex align-items-center mt-3">
-		<div class="col-md-8 text-center text-md-left">
-			<ul class="list-unstyled list-inline smaller">
-				<li>&copy;2020 SpaceJet. All rights reserved worldwide and off planet.</li>
+		<div class="col-lg-5 text-center text-lg-left">
+			<p class="smaller">&copy;2020 SpaceJet. All rights reserved worldwide and off planet.</p>
+		</div>
+		<div class="col-lg-4">
+			<ul class="list-unstyled list-inline smaller text-center text-lg-left">
 				<li><a href="#" class="text-black px-3">Terms Of Use</a></li>
 				<li><a href="#" class="text-black px-3">Privacy Policy</a></li>
 			</ul>
 		</div>
-		<div class="col-md-4 d-flex justify-content-center justify-content-md-end">
+		<div class="col-lg-3 d-flex justify-content-center justify-content-lg-end">
 			<div class="font-size d-flex justify-content-end">
 				<div class="change-font d-flex align-items-center justify-content-between">
 					<p><small>Text size</small>

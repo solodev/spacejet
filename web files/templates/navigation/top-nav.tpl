@@ -1,11 +1,11 @@
 <nav id="main-nav" role="navigation">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-xl-3 col-6 col-sm-5 col-lg-3"><a href="/"><img alt="" aria-role="logo" class="img-fluid py-4" src="/_/images/space-jet-logo.png" /> </a></div>
+      <div class="col-xl-3 col-6 col-sm-5 col-lg-3"><a href="/"><img alt="" aria-role="logo" class="img-fluid py-4" src="/_/images/spacejet-logo.png" /> </a></div>
         <div class="col-xl-7 d-none d-xl-block">
           <ul class="navbar-nav flex-row justify-content-end flex-wrap align-items-center mr-lg-4 mr-xl-0">
             <li class="nav-item px-3 mb-0"><a class="d-block py-4 " href="/about.stml">About</a></li>
-            <li class="nav-item px-3 mb-0"><a class="d-block py-4" href="/contact-us.stml">Contact</a></li>
+            <li class="nav-item px-3 mb-0"><a class="d-block py-4" href="/contact.stml">Contact</a></li>
           </ul>
 		</div>
 		<div class="col-6 col-xl-2 col-sm-7 col-lg-9">

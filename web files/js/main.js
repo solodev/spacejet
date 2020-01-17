@@ -5,7 +5,7 @@ $( document ).ready(function() {
   $('#nav-pills .nav-item a').click(function() {
     $(this).tab('show');
   });
-  
+
   /* =========================
   # Switch font size 
  =========================== */
@@ -31,18 +31,3 @@ $( document ).ready(function() {
   
 });
 
-  document.addEventListener("DOMContentLoaded", function (evt){
-  /** ===========================================
-      Sidenav open/close
-  ============================================ */
-  document.getElementById('sidenav-open-btn').onclick = function () {
-    document.getElementById('sidenav').classList.add('active');
-    document.getElementById('sidenav-close-btn').classList.add('open');
-  }
-
-  document.getElementById('sidenav-close-btn').onclick = function () {
-    document.getElementById('sidenav').classList.remove('active');
-    document.getElementById('sidenav-close-btn').classList.remove('open');
-  };
-  
-  });
