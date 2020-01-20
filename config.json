@@ -254,6 +254,96 @@
             "publish_date": "1579530905"
         },
         {
+            "name": "fa-brands-400.eot",
+            "from_path": "/www/_/css/webfonts/fa-brands-400.eot",
+            "to_path": "/www/_/css/webfonts/fa-brands-400.eot",
+            "publish_date": "1579539087"
+        },
+        {
+            "name": "fa-brands-400.svg",
+            "from_path": "/www/_/css/webfonts/fa-brands-400.svg",
+            "to_path": "/www/_/css/webfonts/fa-brands-400.svg",
+            "publish_date": "1579539088"
+        },
+        {
+            "name": "fa-brands-400.ttf",
+            "from_path": "/www/_/css/webfonts/fa-brands-400.ttf",
+            "to_path": "/www/_/css/webfonts/fa-brands-400.ttf",
+            "publish_date": "1579539087"
+        },
+        {
+            "name": "fa-brands-400.woff",
+            "from_path": "/www/_/css/webfonts/fa-brands-400.woff",
+            "to_path": "/www/_/css/webfonts/fa-brands-400.woff",
+            "publish_date": "1579539088"
+        },
+        {
+            "name": "fa-brands-400.woff2",
+            "from_path": "/www/_/css/webfonts/fa-brands-400.woff2",
+            "to_path": "/www/_/css/webfonts/fa-brands-400.woff2",
+            "publish_date": "1579539087"
+        },
+        {
+            "name": "fa-regular-400.eot",
+            "from_path": "/www/_/css/webfonts/fa-regular-400.eot",
+            "to_path": "/www/_/css/webfonts/fa-regular-400.eot",
+            "publish_date": "1579539086"
+        },
+        {
+            "name": "fa-regular-400.svg",
+            "from_path": "/www/_/css/webfonts/fa-regular-400.svg",
+            "to_path": "/www/_/css/webfonts/fa-regular-400.svg",
+            "publish_date": "1579539088"
+        },
+        {
+            "name": "fa-regular-400.ttf",
+            "from_path": "/www/_/css/webfonts/fa-regular-400.ttf",
+            "to_path": "/www/_/css/webfonts/fa-regular-400.ttf",
+            "publish_date": "1579539089"
+        },
+        {
+            "name": "fa-regular-400.woff",
+            "from_path": "/www/_/css/webfonts/fa-regular-400.woff",
+            "to_path": "/www/_/css/webfonts/fa-regular-400.woff",
+            "publish_date": "1579539092"
+        },
+        {
+            "name": "fa-regular-400.woff2",
+            "from_path": "/www/_/css/webfonts/fa-regular-400.woff2",
+            "to_path": "/www/_/css/webfonts/fa-regular-400.woff2",
+            "publish_date": "1579539092"
+        },
+        {
+            "name": "fa-solid-900.eot",
+            "from_path": "/www/_/css/webfonts/fa-solid-900.eot",
+            "to_path": "/www/_/css/webfonts/fa-solid-900.eot",
+            "publish_date": "1579539093"
+        },
+        {
+            "name": "fa-solid-900.svg",
+            "from_path": "/www/_/css/webfonts/fa-solid-900.svg",
+            "to_path": "/www/_/css/webfonts/fa-solid-900.svg",
+            "publish_date": "1579539093"
+        },
+        {
+            "name": "fa-solid-900.ttf",
+            "from_path": "/www/_/css/webfonts/fa-solid-900.ttf",
+            "to_path": "/www/_/css/webfonts/fa-solid-900.ttf",
+            "publish_date": "1579539094"
+        },
+        {
+            "name": "fa-solid-900.woff",
+            "from_path": "/www/_/css/webfonts/fa-solid-900.woff",
+            "to_path": "/www/_/css/webfonts/fa-solid-900.woff",
+            "publish_date": "1579539095"
+        },
+        {
+            "name": "fa-solid-900.woff2",
+            "from_path": "/www/_/css/webfonts/fa-solid-900.woff2",
+            "to_path": "/www/_/css/webfonts/fa-solid-900.woff2",
+            "publish_date": "1579539095"
+        },
+        {
             "name": "featurer-image-001.png",
             "from_path": "/www/_/images/featurer-image-001.png",
             "to_path": "/www/_/images/featurer-image-001.png",
@@ -978,12 +1068,12 @@
             "to_path": "/www/_/images"
         },
         {
-            "from_path": "/web files/js",
-            "to_path": "/web files/js"
-        },
-        {
             "from_path": "/www/_/js",
             "to_path": "/www/_/js"
+        },
+        {
+            "from_path": "/web files/js",
+            "to_path": "/web files/js"
         },
         {
             "from_path": "/web files/managers",
@@ -1008,6 +1098,10 @@
         {
             "from_path": "/web files",
             "to_path": "/web files"
+        },
+        {
+            "from_path": "/www/_/css/webfonts",
+            "to_path": "/www/_/css/webfonts"
         },
         {
             "from_path": "/www",
@@ -1039,6 +1133,11 @@
     ],
     "Website": {
         "html_tag": "<!doctype html>\r\n<html lang=\"en\">",
-        "header": "<meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\r\n<link href=\"/_/css/app.min.css\" rel=\"stylesheet\">\r\n<script src=\"/_/js/app.min.js\"></script>\r\n\r\n<!-- IE8 support -->\r\n<!--[if lt IE 9]>\r\n  <script src=\"https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js\"></script>\r\n  <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>\r\n<![endif]-->"
+        "header": "<meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\r\n<link href=\"/_/css/app.min.css\" rel=\"stylesheet\">\r\n<script src=\"/_/js/app.min.js\"></script>\r\n\r\n<!-- IE8 support -->\r\n<!--[if lt IE 9]>\r\n  <script src=\"https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js\"></script>\r\n  <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>\r\n<![endif]-->",
+        "body_class": "",
+        "twitter_site": "",
+        "facebook_site": "",
+        "description": "SpaceJet",
+        "shortcode_file_id": null
     }
 }
