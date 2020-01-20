@@ -84,34 +84,44 @@
                     "from_path": "/web files/templates/components/section-cta.html"
                 },
                 {
-                    "area": "dd.0.1",
+                    "area": "dd.0.0",
                     "type": "file",
                     "from_path": "/web files/templates/navigation/top-nav.tpl"
                 },
                 {
                     "area": "dd.0.2",
                     "type": "file",
-                    "from_path": "/web files/templates/components/page-title.tpl"
+                    "from_path": "/web files/templates/footer/footer.tpl"
                 },
                 {
-                    "area": "dd.0.3",
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/content-template.tpl"
+                },
+                {
+                    "area": "dd.0.1.0",
                     "type": "file",
                     "from_path": "/web files/content/about-us/section-one.html"
                 },
                 {
-                    "area": "dd.0.4",
+                    "area": "dd.0.1.1",
                     "type": "file",
                     "from_path": "/web files/content/about-us/section-two.html"
                 },
                 {
-                    "area": "dd.0.5",
+                    "area": "dd.0.1.2",
                     "type": "file",
                     "from_path": "/web files/content/about-us/section-three.html"
                 },
                 {
-                    "area": "dd.0.0",
+                    "area": "dd.0.1.3",
                     "type": "file",
-                    "from_path": "/web files/templates/navigation/mobile-menu.tpl"
+                    "from_path": "/web files/content/about-us/section-four.html"
+                },
+                {
+                    "area": "dd.0.1.4",
+                    "type": "file",
+                    "from_path": "/web files/content/about-us/section-five.html"
                 }
             ]
         },
@@ -195,8 +205,8 @@
             "name": "contact.stml",
             "from_path": "/www/contact.stml",
             "to_path": "/www/contact.stml",
+            "title": "Contact",
             "publish_date": 1577743855,
-            "title": null,
             "structure": "0",
             "rank": null,
             "menu": null,
@@ -216,26 +226,32 @@
                     "from_path": "/web files/templates/base-template/base-template.tpl"
                 },
                 {
-                    "area": "dd.0.1",
+                    "area": "dd.0.0",
                     "type": "file",
                     "from_path": "/web files/templates/navigation/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.6",
+                    "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
                 },
                 {
-                    "area": "dd.0.2",
+                    "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/content/contact/index.html"
+                    "from_path": "/web files/templates/content-template.tpl"
                 },
                 {
-                    "area": "dd.0.0",
+                    "area": "dd.0.1.0",
                     "type": "file",
-                    "from_path": "/web files/templates/navigation/mobile-menu.tpl"
+                    "from_path": "/web files/content/contact/index.html"
                 }
             ]
+        },
+        {
+            "name": "content-template.tpl",
+            "from_path": "/web files/templates/content-template.tpl",
+            "to_path": "/web files/templates/content-template.tpl",
+            "publish_date": "1579530905"
         },
         {
             "name": "featurer-image-001.png",
@@ -338,16 +354,6 @@
                     "from_path": "/web files/templates/base-template/base-template.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/navigation/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/header/hero-slider.html"
-                },
-                {
                     "area": "dd.0.6",
                     "type": "file",
                     "from_path": "/web files/templates/base-template/insert-divs.tpl"
@@ -380,7 +386,37 @@
                 {
                     "area": "dd.0.0",
                     "type": "file",
-                    "from_path": "/web files/templates/navigation/mobile-menu.tpl"
+                    "from_path": "/web files/templates/navigation/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/base-template/insert-divs.tpl"
+                },
+                {
+                    "area": "dd.0.1.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/header/hero-slider.html"
+                },
+                {
+                    "area": "dd.0.1.1",
+                    "type": "file",
+                    "from_path": "/web files/content/home/section-explore.html"
+                },
+                {
+                    "area": "dd.0.1.2",
+                    "type": "file",
+                    "from_path": "/web files/content/home/section-how-it-works.html"
+                },
+                {
+                    "area": "dd.0.1.3",
+                    "type": "file",
+                    "from_path": "/web files/content/home/section-features.html"
                 }
             ]
         },
@@ -812,7 +848,7 @@
             "name": "thank-you.stml",
             "from_path": "/www/thank-you.stml",
             "to_path": "/www/thank-you.stml",
-            "title": "Thank you",
+            "title": "Thank you for getting in touch",
             "publish_date": 1579186821,
             "structure": "0",
             "rank": null,
@@ -835,11 +871,6 @@
                 {
                     "area": "dd.0.0",
                     "type": "file",
-                    "from_path": "/web files/templates/navigation/mobile-menu.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
                     "from_path": "/web files/templates/navigation/top-nav.tpl"
                 },
                 {
@@ -849,6 +880,16 @@
                 },
                 {
                     "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/content-template.tpl"
+                },
+                {
+                    "area": "dd.0.1.0",
                     "type": "file",
                     "from_path": "/web files/content/contact/thank-you.html"
                 }
@@ -904,6 +945,10 @@
             "to_path": "/web files/content"
         },
         {
+            "from_path": "/web files/templates/content",
+            "to_path": "/web files/templates/content"
+        },
+        {
             "from_path": "/www/_/css",
             "to_path": "/www/_/css",
             "structure": "0"
@@ -933,12 +978,12 @@
             "to_path": "/www/_/images"
         },
         {
-            "from_path": "/www/_/js",
-            "to_path": "/www/_/js"
-        },
-        {
             "from_path": "/web files/js",
             "to_path": "/web files/js"
+        },
+        {
+            "from_path": "/www/_/js",
+            "to_path": "/www/_/js"
         },
         {
             "from_path": "/web files/managers",
@@ -989,37 +1034,7 @@
             },
             "return_template": {
                 "file_path": "/web files/forms/Contact Form/_Assets/0000261-contact-thanks.tpl"
-            },
-            "entries": [
-                {
-                    "fields": {
-                        "phone": "416-385-3200",
-                        "address": null,
-                        "message": "Hi,\r\n\r\nYou know it\u2019s true\u2026\r\n\r\nYour competition just can\u2019t hold a candle to the way you DELIVER real solutions to your customers on your website spacejet.org.\r\n\r\nBut it\u2019s a shame when good people who need what you have to offer wind up settling for second best or even worse.\r\n\r\nNot only do they deserve better, you deserve to be at the top of their list.\r\n \r\nTalkWithCustomer can reliably turn your website spacejet.org into a serious, lead generating machine.\r\n\r\nWith TalkWithCustomer installed on your site, visitors can either call you immediately or schedule a call for you in the future.\r\n \r\nAnd the difference to your business can be staggering \u2013 up to 100X more leads could be yours, just by giving TalkWithCustomer a FREE 14 Day Test Drive.\r\n \r\nThere\u2019s absolutely NO risk to you, so CLICK HERE http://www.talkwithcustomer.com to sign up for this free test drive now.  \r\n\r\nTons more leads? You deserve it.\r\n\r\nSincerely,\r\nEric\r\nPS:  Odds are, you won\u2019t have long to wait before seeing results:\r\nThis service makes an immediate difference in getting people on the phone right away before they have a chance to turn around and surf off to a competitor's website. D Traylor, Traylor Law  \r\nWhy wait any longer?  \r\nCLICK HERE http://www.talkwithcustomer.com to take the FREE 14-Day Test Drive and start converting up to 100X more leads today!\r\n\r\nIf you'd like to unsubscribe click here http://liveserveronline.com/talkwithcustomer.aspx?d=spacejet.org\r\n",
-                        "first_name": "Eric",
-                        "last_name": "Jones",
-                        "company_name": "TalkWithCustomer.com",
-                        "email_address": "eric@talkwithcustomer.com",
-                        "dept_orlando": null,
-                        "dept_houston": null,
-                        "dept_los_angeles": null
-                    }
-                },
-                {
-                    "fields": {
-                        "phone": "8001112345",
-                        "address": null,
-                        "message": "testing",
-                        "first_name": "test",
-                        "last_name": "test",
-                        "company_name": "test",
-                        "email_address": "test@test.com",
-                        "dept_orlando": null,
-                        "dept_houston": null,
-                        "dept_los_angeles": null
-                    }
-                }
-            ]
+            }
         }
     ],
     "Website": {

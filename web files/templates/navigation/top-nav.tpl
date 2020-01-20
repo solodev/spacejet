@@ -1,3 +1,5 @@
+<?php include_once(dirname(__FILE__) .  '/mobile-menu.tpl'); ?>
+
 <nav id="main-nav" role="navigation">
   <div class="container">
     <div class="row align-items-center">
