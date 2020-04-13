@@ -1,4 +1,5 @@
 $fa-font-path: "../../_/css/webfonts";
+$enable-deprecation-messages: false !default;
 @import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";

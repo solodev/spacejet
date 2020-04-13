@@ -170,7 +170,7 @@
             "name": "app.scss",
             "from_path": "/web files/scss/app.scss",
             "to_path": "/web files/scss/app.scss",
-            "publish_date": 1576872359
+            "publish_date": "1576872300"
         },
         {
             "name": "base-template.tpl",
@@ -1068,12 +1068,12 @@
             "to_path": "/www/_/images"
         },
         {
-            "from_path": "/www/_/js",
-            "to_path": "/www/_/js"
-        },
-        {
             "from_path": "/web files/js",
             "to_path": "/web files/js"
+        },
+        {
+            "from_path": "/www/_/js",
+            "to_path": "/www/_/js"
         },
         {
             "from_path": "/web files/managers",
