@@ -22,6 +22,23 @@
         - cd web\ files && sed -i 's@spacejet-logo.png@'"$LOGONAME"'@' templates/navigation/top-nav.tpl
         - cd web\ files && sed -i 's@spacejet-logo.png@'"$LOGONAME"'@' templates/navigation/mobile-menu.tpl
         - cd web\ files && sed -i 's@spacejet-logo.png@'"$LOGONAME"'@' templates/footer/footer.tpl
+        - cd web\ files && sed -i 's@(407) 898-1961@'"$SITEPHONE"'@' templates/footer/footer.tpl
+        - cd web\ files && sed -i 's@4078981961@'"$SITEPHONE"'@' templates/footer/footer.tpl
+        - cd web\ files && sed -i 's@info\@spacejet.com@'"$SITEEMAIL"'@' templates/footer/footer.tpl
+        - cd web\ files && sed -i 's@https://www.facebook.com/spacejet@'"$SITEFACEBOOK"'@' templates/footer/footer.tpl
+        - cd web\ files && sed -i 's@https://twitter.com/spacejet@'"$SITETWITTER"'@' templates/footer/footer.tpl
+        - cd web\ files && sed -i 's@https://www.linkedin.com/spacejet@'"$SITELINKEDIN"'@' templates/footer/footer.tpl
+        - cd web\ files && sed -i 's@https://www.instagram.com/spacejet@'"$SITEINSTAGRAM"'@' templates/footer/footer.tpl       
+        - cd web\ files && sed -i 's@https://www.facebook.com/spacejet@'"$SITEFACEBOOK"'@' templates/navigation/top-nav.tpl
+        - cd web\ files && sed -i 's@https://twitter.com/spacejet@'"$SITETWITTER"'@' templates/navigation/top-nav.tpl
+        - cd web\ files && sed -i 's@https://www.linkedin.com/spacejet@'"$SITELINKEDIN"'@' templates/navigation/top-nav.tpl
+        - cd web\ files && sed -i 's@https://www.instagram.com/spacejet@'"$SITEINSTAGRAM"'@' templates/navigation/top-nav.tpl
+        - cd web\ files && sed -i 's@https://www.facebook.com/spacejet@'"$SITEFACEBOOK"'@' templates/navigation/mobile-menu.tpl
+        - cd web\ files && sed -i 's@https://twitter.com/spacejet@'"$SITETWITTER"'@' templates/navigation/mobile-menu.tpl
+        - cd web\ files && sed -i 's@https://www.linkedin.com/spacejet@'"$SITELINKEDIN"'@' templates/navigation/mobile-menu.tpl
+        - cd web\ files && sed -i 's@https://www.instagram.com/spacejet@'"$SITEINSTAGRAM"'@' templates/navigation/mobile-menu.tpl       
+        - cd web\ files && sed -i 's@+1-800-859-7656@'"$SITEPHONE"'@' content/contact/index.html
+        - cd web\ files && sed -i 's@18005897656@'"$SITEPHONE"'@' content/contact/index.html
         - zip --symlinks -r spacejet.zip web\ files www config.json
         - mkdir marketplace
         - cd marketplace
