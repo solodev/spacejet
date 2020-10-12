@@ -1,23 +1,124 @@
 {
+    "Asset_Category": [
+        {
+            "from_path": "/www/about",
+            "to_path": "/www/about",
+            "title": "About",
+            "structure": "0"
+        },
+        {
+            "from_path": "/web files/content/about-us",
+            "to_path": "/web files/content/about-us"
+        },
+        {
+            "from_path": "/web files/templates/base-template",
+            "to_path": "/web files/templates/base-template"
+        },
+        {
+            "from_path": "/web files/templates/components",
+            "to_path": "/web files/templates/components"
+        },
+        {
+            "from_path": "/web files/content/contact",
+            "to_path": "/web files/content/contact"
+        },
+        {
+            "from_path": "/web files/forms/Contact Form",
+            "to_path": "/web files/forms/Contact Form"
+        },
+        {
+            "from_path": "/web files/content",
+            "to_path": "/web files/content"
+        },
+        {
+            "from_path": "/web files/templates/content",
+            "to_path": "/web files/templates/content"
+        },
+        {
+            "from_path": "/www/_/css",
+            "to_path": "/www/_/css",
+            "structure": "0"
+        },
+        {
+            "from_path": "/www/_/css/fonts",
+            "to_path": "/www/_/css/fonts"
+        },
+        {
+            "from_path": "/web files/templates/footer",
+            "to_path": "/web files/templates/footer"
+        },
+        {
+            "from_path": "/web files/forms",
+            "to_path": "/web files/forms"
+        },
+        {
+            "from_path": "/web files/templates/header",
+            "to_path": "/web files/templates/header"
+        },
+        {
+            "from_path": "/web files/content/home",
+            "to_path": "/web files/content/home"
+        },
+        {
+            "from_path": "/www/_/images",
+            "to_path": "/www/_/images"
+        },
+        {
+            "from_path": "/www/_/js",
+            "to_path": "/www/_/js"
+        },
+        {
+            "from_path": "/web files/js",
+            "to_path": "/web files/js"
+        },
+        {
+            "from_path": "/web files/managers",
+            "to_path": "/web files/managers"
+        },
+        {
+            "from_path": "/web files/templates/navigation",
+            "to_path": "/web files/templates/navigation"
+        },
+        {
+            "from_path": "/www/_/page-templates",
+            "to_path": "/www/_/page-templates"
+        },
+        {
+            "from_path": "/web files/scss",
+            "to_path": "/web files/scss"
+        },
+        {
+            "from_path": "/web files/templates",
+            "to_path": "/web files/templates"
+        },
+        {
+            "from_path": "/web files/scss/theme",
+            "to_path": "/web files/scss/theme"
+        },
+        {
+            "from_path": "/web files",
+            "to_path": "/web files"
+        },
+        {
+            "from_path": "/www/_/css/webfonts",
+            "to_path": "/www/_/css/webfonts"
+        },
+        {
+            "from_path": "/www",
+            "to_path": "/www"
+        },
+        {
+            "from_path": "/www/_",
+            "to_path": "/www/_",
+            "title": "Resources",
+            "structure": "0"
+        },
+        {
+            "from_path": "/web files/forms/Contact Form/_Assets",
+            "to_path": "/web files/forms/Contact Form/_Assets"
+        }
+    ],
     "Asset_File": [
-        {
-            "name": "0000260-contact-form.tpl",
-            "from_path": "/web files/forms/Contact Form/_Assets/0000260-contact-form.tpl",
-            "to_path": "/web files/forms/Contact Form/_Assets/0000260-contact-form.tpl",
-            "publish_date": 1579184233
-        },
-        {
-            "name": "0000261-contact-thanks.tpl",
-            "from_path": "/web files/forms/Contact Form/_Assets/0000261-contact-thanks.tpl",
-            "to_path": "/web files/forms/Contact Form/_Assets/0000261-contact-thanks.tpl",
-            "publish_date": 1579184233
-        },
-        {
-            "name": "0000312-contact.html",
-            "from_path": "/web files/content/0000312-contact.html",
-            "to_path": "/web files/content/0000312-contact.html",
-            "publish_date": "1588800619"
-        },
         {
             "name": "about-us-section-three-image.png",
             "from_path": "/www/_/images/about-us-section-three-image.png",
@@ -29,107 +130,6 @@
             "from_path": "/www/_/images/about-us-section-two-image.jpg",
             "to_path": "/www/_/images/about-us-section-two-image.jpg",
             "publish_date": 1577996562
-        },
-        {
-            "name": "about.stml",
-            "from_path": "/www/about.stml",
-            "to_path": "/www/about.stml",
-            "title": "About SpaceJet",
-            "publish_date": "1577726150",
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": "SpaceJet is the world\u2019s first luxury jet service with regular commercial flights to low earth orbit (LEO), delivering passengers to space-based experiences.",
-            "meta_keywords": "spacejet,leo,travel,accelerating,experiences,based,space,passengers,delivering,orbit",
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/base-template/base-template.tpl"
-                },
-                {
-                    "area": "dd.0.6",
-                    "type": "file",
-                    "from_path": "/web files/templates/base-template/insert-divs.tpl"
-                },
-                {
-                    "area": "dd.0.6.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.6.0",
-                    "type": "file",
-                    "from_path": "/web files/content/about-us/section-four.html"
-                },
-                {
-                    "area": "dd.0.6.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/base-template/insert-divs.tpl"
-                },
-                {
-                    "area": "dd.0.6.1.0",
-                    "type": "file",
-                    "from_path": "/web files/content/about-us/section-five.html"
-                },
-                {
-                    "area": "dd.0.6.1.1",
-                    "type": "Asset_Category",
-                    "from_path": "/web files/templates/components"
-                },
-                {
-                    "area": "dd.0.6.1.1.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/components/section-cta.html"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/navigation/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/content-template.tpl"
-                },
-                {
-                    "area": "dd.0.1.0",
-                    "type": "file",
-                    "from_path": "/web files/content/about-us/section-one.html"
-                },
-                {
-                    "area": "dd.0.1.1",
-                    "type": "file",
-                    "from_path": "/web files/content/about-us/section-two.html"
-                },
-                {
-                    "area": "dd.0.1.2",
-                    "type": "file",
-                    "from_path": "/web files/content/about-us/section-three.html"
-                },
-                {
-                    "area": "dd.0.1.3",
-                    "type": "file",
-                    "from_path": "/web files/content/about-us/section-four.html"
-                },
-                {
-                    "area": "dd.0.1.4",
-                    "type": "file",
-                    "from_path": "/web files/content/about-us/section-five.html"
-                }
-            ]
         },
         {
             "name": "ajax-loader.gif",
@@ -179,34 +179,101 @@
             "publish_date": "1576872300"
         },
         {
+            "name": "autonomous-navigation.html",
+            "from_path": "/web files/content/about-us/autonomous-navigation.html",
+            "to_path": "/web files/content/about-us/autonomous-navigation.html",
+            "publish_date": "1602515040"
+        },
+        {
+            "name": "autonomous-navigation.stml",
+            "from_path": "/www/about/autonomous-navigation.stml",
+            "to_path": "/www/about/autonomous-navigation.stml",
+            "title": "Autonomous Navigation",
+            "rank": 1,
+            "publish_date": "1602515006",
+            "structure": 1,
+            "menu": null,
+            "meta_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+            "meta_keywords": "ut,qui,sed,quia,voluptatem,sit,ea,quis,dolor,enim",
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/base-template/base-template.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/navigation/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/content-template.tpl"
+                },
+                {
+                    "area": "dd.0.1.1",
+                    "type": "file",
+                    "from_path": "/web files/content/about-us/autonomous-navigation.html"
+                },
+                {
+                    "area": "dd.0.1.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/components/cta-banner.tpl"
+                },
+                {
+                    "area": "dd.0.1.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/header/hero-content.tpl"
+                },
+                {
+                    "area": "dd.0.1.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/navigation/left-nav.tpl"
+                }
+            ]
+        },
+        {
             "name": "base-template.tpl",
             "from_path": "/web files/templates/base-template/base-template.tpl",
             "to_path": "/web files/templates/base-template/base-template.tpl",
             "publish_date": 1577125922
         },
         {
-            "name": "careers-form.tpl",
-            "from_path": "/web files/forms/Contact Form/_Assets/careers-form.tpl",
-            "to_path": "/web files/forms/Contact Form/_Assets/careers-form.tpl",
-            "publish_date": 1579184231
+            "name": "breadcrumb.scss",
+            "from_path": "/web files/scss/theme/breadcrumb.scss",
+            "to_path": "/web files/scss/theme/breadcrumb.scss",
+            "publish_date": "1602520380"
+        },
+        {
+            "name": "buttons.scss",
+            "from_path": "/web files/scss/theme/buttons.scss",
+            "to_path": "/web files/scss/theme/buttons.scss",
+            "publish_date": "1602257160"
+        },
+        {
+            "name": "contact-form.tpl",
+            "from_path": "/web files/forms/Contact Form/_Assets/contact-form.tpl",
+            "to_path": "/web files/forms/Contact Form/_Assets/contact-form.tpl",
+            "publish_date": "1579184220"
         },
         {
             "name": "contact-us-featured-image.png",
             "from_path": "/www/_/images/contact-us-featured-image.png",
             "to_path": "/www/_/images/contact-us-featured-image.png",
             "publish_date": 1577746234
-        },
-        {
-            "name": "contact-us-thanks.tpl",
-            "from_path": "/web files/forms/Contact Form/_Assets/contact-us-thanks.tpl",
-            "to_path": "/web files/forms/Contact Form/_Assets/contact-us-thanks.tpl",
-            "publish_date": 1579184231
-        },
-        {
-            "name": "contact.html",
-            "from_path": "/web files/content/contact.html",
-            "to_path": "/web files/content/contact.html",
-            "publish_date": "1588800615"
         },
         {
             "name": "contact.scss",
@@ -250,7 +317,7 @@
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/content-template.tpl"
+                    "from_path": "/web files/templates/content/sectional-template.tpl"
                 },
                 {
                     "area": "dd.0.1.0",
@@ -261,9 +328,138 @@
         },
         {
             "name": "content-template.tpl",
-            "from_path": "/web files/templates/content-template.tpl",
-            "to_path": "/web files/templates/content-template.tpl",
-            "publish_date": "1579530905"
+            "from_path": "/web files/templates/content/content-template.tpl",
+            "to_path": "/web files/templates/content/content-template.tpl",
+            "publish_date": "1602513960"
+        },
+        {
+            "name": "cta-banner.tpl",
+            "from_path": "/web files/templates/components/cta-banner.tpl",
+            "to_path": "/web files/templates/components/cta-banner.tpl",
+            "publish_date": "1602515400"
+        },
+        {
+            "name": "default-template.stml",
+            "from_path": "/www/_/page-templates/default-template.stml",
+            "to_path": "/www/_/page-templates/default-template.stml",
+            "title": "Page Title",
+            "publish_date": "1602519922",
+            "structure": 1,
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": 1,
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/base-template/base-template.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/navigation/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/content-template.tpl"
+                },
+                {
+                    "area": "dd.0.1.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/components/cta-banner.tpl"
+                },
+                {
+                    "area": "dd.0.1.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/header/hero-content.tpl"
+                },
+                {
+                    "area": "dd.0.1.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/navigation/left-nav.tpl"
+                }
+            ]
+        },
+        {
+            "name": "experienced-pilots.html",
+            "from_path": "/web files/content/about-us/experienced-pilots.html",
+            "to_path": "/web files/content/about-us/experienced-pilots.html",
+            "publish_date": "1602521340"
+        },
+        {
+            "name": "experienced-pilots.stml",
+            "from_path": "/www/about/experienced-pilots.stml",
+            "to_path": "/www/about/experienced-pilots.stml",
+            "title": "Experienced Pilots",
+            "rank": 2,
+            "publish_date": "1602520045",
+            "structure": 1,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/base-template/base-template.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/navigation/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/content-template.tpl"
+                },
+                {
+                    "area": "dd.0.1.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/components/cta-banner.tpl"
+                },
+                {
+                    "area": "dd.0.1.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/header/hero-content.tpl"
+                },
+                {
+                    "area": "dd.0.1.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/navigation/left-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1.1",
+                    "type": "file",
+                    "from_path": "/web files/content/about-us/experienced-pilots.html"
+                }
+            ]
         },
         {
             "name": "fa-brands-400.eot",
@@ -356,6 +552,12 @@
             "publish_date": "1579539095"
         },
         {
+            "name": "favicon.ico",
+            "from_path": "/www/favicon.ico",
+            "to_path": "/www/favicon.ico",
+            "publish_date": "1602514909"
+        },
+        {
             "name": "featurer-image-001.png",
             "from_path": "/www/_/images/featurer-image-001.png",
             "to_path": "/www/_/images/featurer-image-001.png",
@@ -383,7 +585,7 @@
             "name": "footer.scss",
             "from_path": "/web files/scss/theme/footer.scss",
             "to_path": "/web files/scss/theme/footer.scss",
-            "publish_date": "1577477430"
+            "publish_date": "1577477400"
         },
         {
             "name": "footer.tpl",
@@ -394,12 +596,18 @@
             "name": "forms.scss",
             "from_path": "/web files/scss/theme/forms.scss",
             "to_path": "/web files/scss/theme/forms.scss",
-            "publish_date": 1577744438
+            "publish_date": "1577744400"
         },
         {
-            "name": "hero-slider.html",
-            "from_path": "/web files/templates/header/hero-slider.html",
-            "to_path": "/web files/templates/header/hero-slider.html"
+            "name": "hero-content.tpl",
+            "from_path": "/web files/templates/header/hero-content.tpl",
+            "to_path": "/web files/templates/header/hero-content.tpl",
+            "publish_date": "1602517620"
+        },
+        {
+            "name": "hero-slider.tpl",
+            "from_path": "/web files/templates/header/hero-slider.tpl",
+            "to_path": "/web files/templates/header/hero-slider.tpl"
         },
         {
             "name": "home-hero-slide-01.png",
@@ -429,7 +637,7 @@
             "name": "index.html",
             "from_path": "/web files/content/contact/index.html",
             "to_path": "/web files/content/contact/index.html",
-            "publish_date": 1577743836
+            "publish_date": "1577743800"
         },
         {
             "name": "index.stml",
@@ -468,7 +676,7 @@
                 {
                     "area": "dd.0.6.1",
                     "type": "file",
-                    "from_path": "/web files/templates/components/section-cta.html"
+                    "from_path": null
                 },
                 {
                     "area": "dd.0.3",
@@ -501,11 +709,6 @@
                     "from_path": "/web files/templates/base-template/insert-divs.tpl"
                 },
                 {
-                    "area": "dd.0.1.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/header/hero-slider.html"
-                },
-                {
                     "area": "dd.0.1.1",
                     "type": "file",
                     "from_path": "/web files/content/home/section-explore.html"
@@ -519,6 +722,122 @@
                     "area": "dd.0.1.3",
                     "type": "file",
                     "from_path": "/web files/content/home/section-features.html"
+                },
+                {
+                    "area": "dd.0.1.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/components/cta-banner.tpl"
+                },
+                {
+                    "area": "dd.0.1.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/header/hero-slider.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/about/index.stml",
+            "to_path": "/www/about/index.stml",
+            "title": "About SpaceJet",
+            "publish_date": "1577726150",
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": "SpaceJet is the world\u2019s first luxury jet service with regular commercial flights to low earth orbit (LEO), delivering passengers to space-based experiences.",
+            "meta_keywords": "spacejet,leo,travel,accelerating,experiences,based,space,passengers,delivering,orbit",
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/base-template/base-template.tpl"
+                },
+                {
+                    "area": "dd.0.6",
+                    "type": "file",
+                    "from_path": "/web files/templates/base-template/insert-divs.tpl"
+                },
+                {
+                    "area": "dd.0.6.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.6.0",
+                    "type": "file",
+                    "from_path": "/web files/content/about-us/section-four.html"
+                },
+                {
+                    "area": "dd.0.6.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/base-template/insert-divs.tpl"
+                },
+                {
+                    "area": "dd.0.6.1.0",
+                    "type": "file",
+                    "from_path": "/web files/content/about-us/section-five.html"
+                },
+                {
+                    "area": "dd.0.6.1.1",
+                    "type": "Asset_Category",
+                    "from_path": "/web files/templates/components"
+                },
+                {
+                    "area": "dd.0.6.1.1.0",
+                    "type": "file",
+                    "from_path": null
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/navigation/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/sectional-template.tpl"
+                },
+                {
+                    "area": "dd.0.1.0",
+                    "type": "file",
+                    "from_path": "/web files/content/about-us/section-one.html"
+                },
+                {
+                    "area": "dd.0.1.1",
+                    "type": "file",
+                    "from_path": "/web files/content/about-us/section-two.html"
+                },
+                {
+                    "area": "dd.0.1.2",
+                    "type": "file",
+                    "from_path": "/web files/content/about-us/section-three.html"
+                },
+                {
+                    "area": "dd.0.1.3",
+                    "type": "file",
+                    "from_path": "/web files/content/about-us/section-four.html"
+                },
+                {
+                    "area": "dd.0.1.4",
+                    "type": "file",
+                    "from_path": "/web files/content/about-us/section-five.html"
+                },
+                {
+                    "area": "dd.0.1.5",
+                    "type": "file",
+                    "from_path": "/web files/templates/components/cta-banner.tpl"
                 }
             ]
         },
@@ -526,7 +845,7 @@
             "name": "insert-divs.tpl",
             "from_path": "/web files/templates/base-template/insert-divs.tpl",
             "to_path": "/web files/templates/base-template/insert-divs.tpl",
-            "publish_date": "1577470537"
+            "publish_date": "1577470500"
         },
         {
             "name": "Inter-Black.woff",
@@ -763,16 +1082,28 @@
             "publish_date": "1577976014"
         },
         {
+            "name": "left-nav.scss",
+            "from_path": "/web files/scss/theme/left-nav.scss",
+            "to_path": "/web files/scss/theme/left-nav.scss",
+            "publish_date": "1602518340"
+        },
+        {
+            "name": "left-nav.tpl",
+            "from_path": "/web files/templates/navigation/left-nav.tpl",
+            "to_path": "/web files/templates/navigation/left-nav.tpl",
+            "publish_date": "1602518220"
+        },
+        {
             "name": "main.js",
             "from_path": "/web files/js/main.js",
             "to_path": "/web files/js/main.js",
-            "publish_date": "1576872098"
+            "publish_date": "1576872060"
         },
         {
             "name": "main.scss",
             "from_path": "/web files/scss/theme/main.scss",
             "to_path": "/web files/scss/theme/main.scss",
-            "publish_date": "1576872460"
+            "publish_date": "1576872420"
         },
         {
             "name": "mobile-menu.tpl",
@@ -783,7 +1114,7 @@
             "name": "mobile-nav.scss",
             "from_path": "/web files/scss/theme/mobile-nav.scss",
             "to_path": "/web files/scss/theme/mobile-nav.scss",
-            "publish_date": "1577384085"
+            "publish_date": "1577384040"
         },
         {
             "name": "mobilenav.js",
@@ -795,7 +1126,7 @@
             "name": "nav-pills.scss",
             "from_path": "/web files/scss/theme/nav-pills.scss",
             "to_path": "/web files/scss/theme/nav-pills.scss",
-            "publish_date": "1577460535"
+            "publish_date": "1577460480"
         },
         {
             "name": "nl.txt",
@@ -813,18 +1144,13 @@
             "name": "package.json",
             "from_path": "/web files/package.json",
             "to_path": "/web files/package.json",
-            "publish_date": 1576875195
+            "publish_date": "1576875180"
         },
         {
             "name": "page-title.tpl",
             "from_path": "/web files/templates/components/page-title.tpl",
             "to_path": "/web files/templates/components/page-title.tpl",
-            "publish_date": 1577723559
-        },
-        {
-            "name": "section-cta.html",
-            "from_path": "/web files/templates/components/section-cta.html",
-            "to_path": "/web files/templates/components/section-cta.html"
+            "publish_date": "1577723520"
         },
         {
             "name": "section-explore.html",
@@ -840,7 +1166,7 @@
             "name": "section-five.html",
             "from_path": "/web files/content/about-us/section-five.html",
             "to_path": "/web files/content/about-us/section-five.html",
-            "publish_date": "1577734240"
+            "publish_date": "1577734200"
         },
         {
             "name": "section-four-about-image-01.png",
@@ -864,7 +1190,7 @@
             "name": "section-four.html",
             "from_path": "/web files/content/about-us/section-four.html",
             "to_path": "/web files/content/about-us/section-four.html",
-            "publish_date": 1577731272
+            "publish_date": "1577731260"
         },
         {
             "name": "section-how-it-works.html",
@@ -880,13 +1206,60 @@
             "name": "section-three.html",
             "from_path": "/web files/content/about-us/section-three.html",
             "to_path": "/web files/content/about-us/section-three.html",
-            "publish_date": "1577730996"
+            "publish_date": "1577730960"
         },
         {
             "name": "section-two.html",
             "from_path": "/web files/content/about-us/section-two.html",
             "to_path": "/web files/content/about-us/section-two.html",
-            "publish_date": "1577730611"
+            "publish_date": "1577730600"
+        },
+        {
+            "name": "sectional-template.stml",
+            "from_path": "/www/_/page-templates/sectional-template.stml",
+            "to_path": "/www/_/page-templates/sectional-template.stml",
+            "title": "Page Title",
+            "publish_date": "1602522251",
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": 1,
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/base-template/base-template.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/navigation/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/sectional-template.tpl"
+                }
+            ]
+        },
+        {
+            "name": "sectional-template.tpl",
+            "from_path": "/web files/templates/content/sectional-template.tpl",
+            "to_path": "/web files/templates/content/sectional-template.tpl",
+            "publish_date": "1579530900"
         },
         {
             "name": "slick.eot",
@@ -922,7 +1295,7 @@
             "name": "slider.scss",
             "from_path": "/web files/scss/theme/slider.scss",
             "to_path": "/web files/scss/theme/slider.scss",
-            "publish_date": 1577391188
+            "publish_date": "1577391180"
         },
         {
             "name": "spacejet-logo-white.png",
@@ -941,16 +1314,77 @@
             "publish_date": "1579020819"
         },
         {
-            "name": "thank-you.html",
-            "from_path": "/web files/content/thank-you.html",
-            "to_path": "/web files/content/thank-you.html",
-            "publish_date": 1587992746
+            "name": "support.html",
+            "from_path": "/web files/content/about-us/support.html",
+            "to_path": "/web files/content/about-us/support.html",
+            "publish_date": "1602521340"
+        },
+        {
+            "name": "support.stml",
+            "from_path": "/www/about/support.stml",
+            "to_path": "/www/about/support.stml",
+            "title": "360 Degree Support",
+            "rank": 3,
+            "publish_date": "1602520109",
+            "structure": 1,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/base-template/base-template.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/navigation/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/content-template.tpl"
+                },
+                {
+                    "area": "dd.0.1.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/components/cta-banner.tpl"
+                },
+                {
+                    "area": "dd.0.1.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/header/hero-content.tpl"
+                },
+                {
+                    "area": "dd.0.1.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/navigation/left-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1.1",
+                    "type": "file",
+                    "from_path": "/web files/content/about-us/support.html"
+                }
+            ]
         },
         {
             "name": "thank-you.html",
             "from_path": "/web files/content/contact/thank-you.html",
             "to_path": "/web files/content/contact/thank-you.html",
-            "publish_date": "1579186900"
+            "publish_date": "1579186860"
         },
         {
             "name": "thank-you.stml",
@@ -994,12 +1428,17 @@
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/content-template.tpl"
+                    "from_path": "/web files/templates/content/sectional-template.tpl"
                 },
                 {
                     "area": "dd.0.1.0",
                     "type": "file",
                     "from_path": "/web files/content/contact/thank-you.html"
+                },
+                {
+                    "area": "dd.0.1.5",
+                    "type": "file",
+                    "from_path": "/web files/templates/components/cta-banner.tpl"
                 }
             ]
         },
@@ -1007,7 +1446,7 @@
             "name": "top-nav.scss",
             "from_path": "/web files/scss/theme/top-nav.scss",
             "to_path": "/web files/scss/theme/top-nav.scss",
-            "publish_date": 1577384594
+            "publish_date": "1577384580"
         },
         {
             "name": "top-nav.tpl",
@@ -1018,120 +1457,13 @@
             "name": "typography.scss",
             "from_path": "/web files/scss/theme/typography.scss",
             "to_path": "/web files/scss/theme/typography.scss",
-            "publish_date": 1576872461
+            "publish_date": "1576872420"
         },
         {
             "name": "_theme-variables.scss",
             "from_path": "/web files/scss/_theme-variables.scss",
             "to_path": "/web files/scss/_theme-variables.scss",
             "publish_date": "1576872300"
-        }
-    ],
-    "Asset_Category": [
-        {
-            "from_path": "/web files/content/about-us",
-            "to_path": "/web files/content/about-us"
-        },
-        {
-            "from_path": "/web files/templates/base-template",
-            "to_path": "/web files/templates/base-template"
-        },
-        {
-            "from_path": "/web files/templates/components",
-            "to_path": "/web files/templates/components"
-        },
-        {
-            "from_path": "/web files/content/contact",
-            "to_path": "/web files/content/contact"
-        },
-        {
-            "from_path": "/web files/forms/Contact Form",
-            "to_path": "/web files/forms/Contact Form"
-        },
-        {
-            "from_path": "/web files/content",
-            "to_path": "/web files/content"
-        },
-        {
-            "from_path": "/web files/templates/content",
-            "to_path": "/web files/templates/content"
-        },
-        {
-            "from_path": "/www/_/css",
-            "to_path": "/www/_/css",
-            "structure": "0"
-        },
-        {
-            "from_path": "/www/_/css/fonts",
-            "to_path": "/www/_/css/fonts"
-        },
-        {
-            "from_path": "/web files/templates/footer",
-            "to_path": "/web files/templates/footer"
-        },
-        {
-            "from_path": "/web files/forms",
-            "to_path": "/web files/forms"
-        },
-        {
-            "from_path": "/web files/templates/header",
-            "to_path": "/web files/templates/header"
-        },
-        {
-            "from_path": "/web files/content/home",
-            "to_path": "/web files/content/home"
-        },
-        {
-            "from_path": "/www/_/images",
-            "to_path": "/www/_/images"
-        },
-        {
-            "from_path": "/www/_/js",
-            "to_path": "/www/_/js"
-        },
-        {
-            "from_path": "/web files/js",
-            "to_path": "/web files/js"
-        },
-        {
-            "from_path": "/web files/managers",
-            "to_path": "/web files/managers"
-        },
-        {
-            "from_path": "/web files/templates/navigation",
-            "to_path": "/web files/templates/navigation"
-        },
-        {
-            "from_path": "/web files/scss",
-            "to_path": "/web files/scss"
-        },
-        {
-            "from_path": "/web files/templates",
-            "to_path": "/web files/templates"
-        },
-        {
-            "from_path": "/web files/scss/theme",
-            "to_path": "/web files/scss/theme"
-        },
-        {
-            "from_path": "/web files",
-            "to_path": "/web files"
-        },
-        {
-            "from_path": "/www/_/css/webfonts",
-            "to_path": "/www/_/css/webfonts"
-        },
-        {
-            "from_path": "/www",
-            "to_path": "/www"
-        },
-        {
-            "from_path": "/www/_",
-            "to_path": "/www/_"
-        },
-        {
-            "from_path": "/web files/forms/Contact Form/_Assets",
-            "to_path": "/web files/forms/Contact Form/_Assets"
         }
     ],
     "Datatable": [
@@ -1142,14 +1474,25 @@
             "icon_type": "fab fa-wpforms",
             "to_path": "/web files/forms/Contact Form/Contact Form",
             "form_template": {
-                "file_path": "/web files/forms/Contact Form/_Assets/0000260-contact-form.tpl"
-            },
-            "return_template": {
-                "file_path": "/web files/forms/Contact Form/_Assets/0000261-contact-thanks.tpl"
+                "file_path": "/web files/forms/Contact Form/_Assets/contact-form.tpl"
             },
             "entries": [
                 {
                     "fields": {
+                        "entry_status": "draft",
+                        "phone": "123-456-7890",
+                        "address": null,
+                        "message": "I'm interested in catching the next flight to the closest pulsar!",
+                        "first_name": "John",
+                        "last_name": "Doe",
+                        "company_name": "Solodev",
+                        "email_address": "john.doe@solodev.com",
+                        "departure": "Orlando"
+                    }
+                },
+                {
+                    "fields": {
+                        "entry_status": "draft",
                         "phone": "123-456-7890",
                         "address": null,
                         "message": "This is a test form submission.",
@@ -1157,9 +1500,7 @@
                         "last_name": "Submissions",
                         "company_name": "Solodev",
                         "email_address": "sample@solodev.com",
-                        "dept_orlando": null,
-                        "dept_houston": null,
-                        "dept_los_angeles": null
+                        "departure": "Houston"
                     }
                 }
             ]

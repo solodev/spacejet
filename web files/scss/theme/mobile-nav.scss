@@ -1,25 +1,25 @@
-/* mobile menu*/
 .nav-sidenav {
   width: 350px;
   right: -360px;
   -webkit-transition: right .3s ease-in-out;
   transition: right .3s ease-in-out;
   z-index: 1000;
-  @include media-breakpoint-down(xs) { width: 100%;right: -100%; }
-ul{
-  &.nav{
-    li {
-      &.nav-item {
-         a {
-           font-family: $primary-font;
-           font-size: 0.9rem;
-           text-decoration: none;
-           color: $body-color;
-          }/*a*/
-      }
-    } /*li*/
+  @include media-breakpoint-down(xs) { 
+    width: 100%;
+    right: -100%; 
   }
-}/*ul*/
+  ul {
+    &.nav {
+      li {
+        &.nav-item {
+          a {
+            font-size: 0.9rem;
+            color: theme-color('black');
+          }
+        }
+      } 
+    }
+  }
   &.active {
     right: 0;
   }
@@ -28,4 +28,4 @@ ul{
       right: 2rem;
     }
   }
-}/*nav-sidenav*/
+}

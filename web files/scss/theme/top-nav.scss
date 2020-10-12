@@ -7,32 +7,21 @@
   span {
     width: 30px;
     height: 4px;
-    background: theme-color('brand-1');
     display: block;
     margin-bottom: 4px;
     &:last-of-type {
       margin-bottom: 0;
     }
   }
-}/*hamburger*/
-.navbar-nav{
-  li{
-    &.nav-item{
-    color:theme-color('black');
-    a{
-       color:theme-color('black');
-       text-decoration:none;
-       font-weight:500;
-    }
+}
+.navbar-nav {
+  li {
+    &.nav-item {
+      a {
+        color: theme-color('black');
+        text-decoration: none;
+        font-weight: 500;
+      }
     }
   }
-}
-.social{
-	li{
-      &.nav-item{
-      a{
-       color:theme-color('cta-color');
-      }
-      }
-    }
 }

@@ -1,24 +1,17 @@
-<header class="position-relative" role="banner" aria-label=”"Home Hero"">
-	<div class="slick-home">
-    	[repeater id='<%%{"path":"","type":"Calendar"}%%>'  limit="0,10" display_type="news" order="start_time desc"]
-			<div class="position-relative hero-bg" style="background: url('[get_asset_file_url id={{slide_picture}}]')">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-8 col-xl-7 h-600p  d-flex flex-column justify-content-center text-white py-md-5 text-center text-sm-left">
-                                  <h1 class="mb-0">{{headline}}</h1>
-                                  <p class="my-4 lead">{{slider_content}}</span></p>
-                                  <p class="text-center text-sm-left">
-                                    [cond type="is" subject="{{link_external}}" value="1"]
-                                  <a class="btn btn-brand-1 mt-2 text-white" href="{{button_link}}" target="_blank">{{button_text}}</a>
-                                  [/cond]
-                                   [cond type="is_not" subject="{{link_external}}" value="1"]
-                                   <a class="btn btn-brand-1 mt-2 w-50 w-sm-25 font-weight-bold" href="{{button_link}}">{{button_text}}</a>
-                                   [/cond] 
-                                   </p>
-							</div><! -- col-->
-						</div><!-- row-->
-					</div><!-- container-->
-			</div>
-            	[/repeater] 
-	</div><!-- slick home-->
+<header aria-label="Home Hero" class="h-lg-555p position-relative" id="home-hero" role="banner">
+  <div class="slick-home">
+    <div class="position-relative"><img alt="Slide 1" src="/_/images/spacejet_hero_01_2020.jpg" />
+      <div class="text-overlay d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-xl-7 text-white text-center text-sm-left px-md-5 px-xl-0">
+              <h1 class="mb-0">Luxury space travel is here</h1>
+              <p class="my-4 lead">SpaceJet is the world’s first upscale jet service with regular flights to earth’s orbit. Vacation miles above the planet, walk among the stars, and experience the wonder of space.</p>
+              <p><a class="btn btn-md btn-tertiary-color mt-2 text-white" href="/contact.stml">Contact us</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </header>

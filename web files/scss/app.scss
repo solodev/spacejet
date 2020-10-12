@@ -1,5 +1,6 @@
 $fa-font-path: "../../_/css/webfonts";
 $enable-deprecation-messages: false !default;
+
 @import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
@@ -16,6 +17,7 @@ $enable-deprecation-messages: false !default;
 @import "theme-variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "theme/main.scss";
+@import "theme/buttons.scss";
 @import "theme/typography.scss";
 @import "theme/mobile-nav.scss";
 @import "theme/top-nav.scss";
@@ -26,4 +28,5 @@ $enable-deprecation-messages: false !default;
 @import "theme/forms.scss";
 @import "theme/mobile-nav.scss";
 @import "theme/contact.scss";
-
+@import "theme/left-nav.scss";
+@import "theme/breadcrumb.scss";

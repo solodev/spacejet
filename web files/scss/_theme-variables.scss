@@ -1,64 +1,30 @@
 /** ===========================================
-    # Theme Color Pallette
-  ============================================ */
-  
-$white: #fff;
-$black: #000;
-$cta-color:#00a1db; 
-$brand-1:#d30b5c;
-$brand-2:#f1f6f7; 
-$brand-3:#5c6771;
-
-$colors: () !default;
-$colors: map-merge(
-  (
-    "white": $white,
-    "$cta-color": $cta-color, 
-    "$brand-1": $brand-1,
-    "$brand-2": $brand-2,
-    "$brand-3": $brand-3,
-    "black": $black
-  ),
-  $colors
-);
-
-$brand-1: $brand-1 !default;
-$brand-2: $brand-2 !default;
-$brand-3: $brand-3 !default;
-$cta-color: $cta-color !default;
-$white: $white  !default;
-$black: $black !default;
-
-
-
-$theme-colors: () !default;
-$theme-colors: map-merge(
-  (
-    "brand-1":    $brand-1,
-    "brand-2":    $brand-2,
-    "brand-3":    $brand-3,
-    "cta-color": $cta-color,
-    "white":    $white,
-    "black":    $black
-  ),
-  $theme-colors
-);
-
-/** ===========================================
-    # Theme Type Settings
+  # Theme Type Settings
 ============================================ */
 $primary-font: 'Inter', sans-serif;
 $secondary-font: "proxima-nova", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
 $fa-font: 'FontAwesome';
-$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
-$body-bg: $white !default;
-$body-color: $black !default;
+$font-size-base: 1rem !default; // Assumes the browser default, typically '16px'
 $smaller-font-size: 70%;
 $font-weight-600: 600!default;
 $font-weight-500: 500!default;
 
 /** ===========================================
-    # Theme Text and BG Hover Styles
+  # Theme Color Pallette
+============================================ */
+$theme-colors: () !default;
+$theme-colors: map-merge((
+  "primary-color": #00a1db,
+  "secondary-color":#d30b5c,
+  "tertiary-color": #ff9b01,
+  "light-gray": #f1f6f7, 
+  "gray": #5c6771,
+  "black": $black,
+  "white": $white,
+), $theme-colors);
+  
+/** ===========================================
+  # Theme Text and BG Hover Styles
 ============================================ */
 @each $color, $value in $theme-colors {
   // Generate `.bg-*` color utilities
@@ -93,10 +59,10 @@ $font-weight-500: 500!default;
   .btn-outline-#{$color} {
     @include button-outline-variant($value);
   }
-
 }
+
 /** ===========================================
-    # Spacing
+  # Spacing
 ============================================ */
 $spacers: map-merge(
   (
@@ -110,7 +76,7 @@ $spacers: map-merge(
 );
 
 /** ===========================================
-    # Sizing
+  # Sizing
 ============================================ */
 // Height and Width Classes
 // This variable affects the `.h-*` and `.w-*` classes.
@@ -144,14 +110,13 @@ $sizes: () !default;
   @media (min-width: #{$breakpoint}) {
     @each $prop, $abbrev in (width: w-#{$breakpoint-key}, height: h-#{$breakpoint-key}) {
       @each $size, $length in $sizes {
-         html .#{$abbrev}-#{$size} { #{$prop}: #{$length} !important;}
+          html .#{$abbrev}-#{$size} { #{$prop}: #{$length} !important;}
       }
     }
   }
 }
 
 // Quickly modify global styling by enabling or disabling optional features.
-
 $enable-caret:                                true !default;
 $enable-rounded:                              true !default;
 $enable-shadows:                              true !default;
@@ -164,6 +129,4 @@ $enable-pointer-cursor-for-buttons:           true !default;
 $enable-print-styles:                         true !default;
 $enable-responsive-font-sizes:                true !default;
 $enable-validation-icons:                     true !default;
-$enable-deprecation-messages:                 true !default;
-
-
+$enable-deprecation-messages:                 true !default;  
