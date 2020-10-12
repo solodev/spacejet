@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-12">
         <h2 class="h3">Start Your Journey to Space</h2>
-        <p>Questions? Issues?</p>
+        <p>Ready to explore?</p>
         <a class="btn btn-md btn-tertiary-color mt-2 text-white" href="/contact.stml">Contact Us</a></div>
       </div>
     </div>
