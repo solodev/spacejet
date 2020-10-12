@@ -16,9 +16,9 @@
         - aws configure set aws_session_token `./jq -r '.Token' aws_credentials.json`
         - ls -al
         - yum install -y zip git
-        - cd web\ files && sed -i 's@#d30b5c@'"$SITEPRIMARY"'@' scss/_theme-variables.scss
-        - cd web\ files && sed -i 's@#f1f6f7@'"$SITESECONDARY"'@' scss/_theme-variables.scss
-        - cd web\ files && sed -i 's@#5c6771@'"$SITETERTIARY"'@' scss/_theme-variables.scss
+        - cd web\ files && sed -i 's@#00a1db@'"$SITEPRIMARY"'@' scss/_theme-variables.scss
+        - cd web\ files && sed -i 's@#d30b5c@'"$SITESECONDARY"'@' scss/_theme-variables.scss
+        - cd web\ files && sed -i 's@#ff9b01@'"$SITETERTIARY"'@' scss/_theme-variables.scss
         - cd web\ files && sed -i 's@spacejet-logo.png@'"$LOGONAME"'@' templates/navigation/top-nav.tpl
         - cd web\ files && sed -i 's@spacejet-logo.png@'"$LOGONAME"'@' templates/navigation/mobile-menu.tpl
         - cd web\ files && sed -i 's@spacejet-logo.png@'"$LOGONAME"'@' templates/footer/footer.tpl
