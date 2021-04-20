@@ -64,12 +64,12 @@
             "to_path": "/www/_/images"
         },
         {
-            "from_path": "/www/_/js",
-            "to_path": "/www/_/js"
-        },
-        {
             "from_path": "/web files/js",
             "to_path": "/web files/js"
+        },
+        {
+            "from_path": "/www/_/js",
+            "to_path": "/www/_/js"
         },
         {
             "from_path": "/web files/managers",
@@ -409,8 +409,8 @@
             "publish_date": "1602520045",
             "structure": 1,
             "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
+            "meta_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
+            "meta_keywords": "ut,qui,sed,quia,voluptatem,sit,ea,quis,dolor,enim",
             "description": null,
             "headerBlock": null,
             "content_title": null,
@@ -842,6 +842,34 @@
             ]
         },
         {
+            "name": "industrial_landscape_with_strange.jpg",
+            "from_path": "/web files/content/about-us/industrial_landscape_with_strange.jpg",
+            "to_path": "/web files/content/about-us/industrial_landscape_with_strange.jpg",
+            "description": "1250040385",
+            "publish_date": "1604495073"
+        },
+        {
+            "name": "industrial_landscape_with_strange.jpg",
+            "from_path": "/web files/content/about-us/industrial_landscape_with_strange.jpg",
+            "to_path": "/web files/content/about-us/industrial_landscape_with_strange.jpg",
+            "description": "1250040385",
+            "publish_date": "1604506508"
+        },
+        {
+            "name": "industrial_landscape_with_strange.jpg",
+            "from_path": "/web files/content/about-us/industrial_landscape_with_strange.jpg",
+            "to_path": "/web files/content/about-us/industrial_landscape_with_strange.jpg",
+            "description": "1250040385",
+            "publish_date": "1604462556"
+        },
+        {
+            "name": "industrial_landscape_with_strange.jpg",
+            "from_path": "/web files/content/about-us/industrial_landscape_with_strange.jpg",
+            "to_path": "/web files/content/about-us/industrial_landscape_with_strange.jpg",
+            "description": "1250040385",
+            "publish_date": "1604493505"
+        },
+        {
             "name": "insert-divs.tpl",
             "from_path": "/web files/templates/base-template/insert-divs.tpl",
             "to_path": "/web files/templates/base-template/insert-divs.tpl",
@@ -1153,6 +1181,13 @@
             "publish_date": "1577723520"
         },
         {
+            "name": "pilots_hand_accelerating_on.jpg",
+            "from_path": "/web files/content/about-us/pilots_hand_accelerating_on.jpg",
+            "to_path": "/web files/content/about-us/pilots_hand_accelerating_on.jpg",
+            "description": 1221423478,
+            "publish_date": "1604443601"
+        },
+        {
             "name": "section-explore.html",
             "from_path": "/web files/content/home/section-explore.html",
             "to_path": "/web files/content/home/section-explore.html"
@@ -1314,6 +1349,20 @@
             "publish_date": "1579020819"
         },
         {
+            "name": "spaceship_on_the_background.jpg",
+            "from_path": "/web files/content/about-us/spaceship_on_the_background.jpg",
+            "to_path": "/web files/content/about-us/spaceship_on_the_background.jpg",
+            "description": 534613528,
+            "publish_date": "1604496229"
+        },
+        {
+            "name": "spaceship_on_the_background.jpg",
+            "from_path": "/www/_/images/spaceship_on_the_background.jpg",
+            "to_path": "/www/_/images/spaceship_on_the_background.jpg",
+            "description": "1746910646",
+            "publish_date": "1604443236"
+        },
+        {
             "name": "support.html",
             "from_path": "/web files/content/about-us/support.html",
             "to_path": "/web files/content/about-us/support.html",
@@ -1379,6 +1428,12 @@
                     "from_path": "/web files/content/about-us/support.html"
                 }
             ]
+        },
+        {
+            "name": "test-document.pdf",
+            "from_path": "/www/_/test-document.pdf",
+            "to_path": "/www/_/test-document.pdf",
+            "publish_date": "1605653459"
         },
         {
             "name": "thank-you.html",
